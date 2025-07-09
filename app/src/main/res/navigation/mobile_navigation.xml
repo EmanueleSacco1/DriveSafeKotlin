@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.drivesafe.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_garage"
+        android:name="com.example.drivesafe.ui.garage.GarageFragment"
+        android:label="@string/menu_garage"
+        tools:layout="@layout/fragment_garage">
+        <action
+            android:id="@+id/action_nav_garage_to_carDetailFragment"
+            app:destination="@id/carDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_performance"
+        android:name="com.example.drivesafe.ui.performance.PerformanceFragment"
+        android:label="@string/menu_performance"
+        tools:layout="@layout/fragment_performance" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.drivesafe.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+
+    <fragment
+        android:id="@+id/carDetailFragment"
+        android:name="com.example.drivesafe.ui.cardetail.CarDetailFragment"
+        android:label="Dettagli Auto"
+        tools:layout="@layout/fragment_car_detail">
+        <argument
+            android:name="carId"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_routes"
+        android:name="com.example.drivesafe.ui.routes.RoutesFragment"
+        android:label="@string/menu_routes"
+        tools:layout="@layout/fragment_routes">
+        <action
+            android:id="@+id/action_nav_routes_to_routeDetailFragment"
+            app:destination="@id/routeDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/routeDetailFragment"
+        android:name="com.example.drivesafe.ui.routes.RouteDetailFragment"
+        android:label="Dettagli Percorso"
+        tools:layout="@layout/fragment_route_detail">
+        <argument
+            android:name="routeId"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.drivesafe.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile_view">
+        <action
+            android:id="@+id/action_nav_profile_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_social_routes"
+        android:name="com.example.drivesafe.ui.social.SocialRoutesFragment"
+        android:label="@string/menu_social_routes"
+        tools:layout="@layout/fragment_social_routes">
+        <action
+            android:id="@+id/action_nav_social_routes_to_routeDetailFragment"
+            app:destination="@id/routeDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.drivesafe.ui.profile.EditProfileFragment"
+        android:label="@string/menu_edit_profile"
+        tools:layout="@layout/fragment_profile_edit">
+        <action
+            android:id="@+id/action_editProfileFragment_to_nav_profile"
+            app:destination="@id/nav_profile"
+            app:popUpTo="@id/nav_profile"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

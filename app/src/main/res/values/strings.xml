@@ -1,0 +1,244 @@
+<resources>
+    <string name="app_name">DriveSafe</string>
+    <string name="navigation_drawer_open">Apri menu di navigazione</string>
+    <string name="navigation_drawer_close">Chiudi menu di navigazione</string>
+    <string name="nav_header_title">DriveSafe</string>
+    <string name="nav_header_subtitle">Utente:</string>
+    <string name="nav_header_desc">Intestazione di navigazione</string>
+    <string name="action_settings">Impostazioni</string>
+
+    <string name="menu_home">Mappa</string>
+    <string name="menu_gallery">Galleria</string>
+    <string name="menu_slideshow">Presentazione</string>
+    <string name="menu_garage">Garage</string>
+    <string name="menu_performance">Performance</string>
+    <string name="menu_logout">Logout</string>
+
+
+    <string name="speed_format">Velocità: %d km/h</string>
+    <string name="speed_limit_format">Limite: %d km/h</string>
+    <string name="speed_value_format">%d km/h</string>
+    <string name="label_current_speed">Velocità attuale:</string>
+    <string name="label_average_speed">Velocità media:</string>
+    <string name="label_braking_count">Frenate brusche:</string>
+    <string name="label_acceleration_count">Accelerazioni brusche:</string>
+
+
+    <string name="hint_brand">Marca (Brand)</string>
+    <string name="hint_model">Modello (Model)</string>
+    <string name="hint_year">Anno (Year)</string>
+    <string name="button_add_car">Aggiungi Auto</string>
+    <string name="toast_fill_all_details">Per favore, compila tutti i dettagli dell\'auto</string>
+    <string name="toast_invalid_year">Anno inserito non valido</string>
+
+    <string name="car_image_description">Immagine dell\'auto</string>
+    <string name="car_year_format">Anno: %d</string>
+    <string name="delete_button_description">Cancella auto</string>
+
+    <string name="delete_dialog_title">Cancella Auto</string>
+    <string name="delete_dialog_message">Sei sicuro di voler cancellare %s (%d)?</string>
+    <string name="delete_dialog_confirm">Cancella</string>
+    <string name="delete_dialog_cancel">Annulla</string>
+    <string name="toast_car_deleted">%s cancellata</string>
+
+    <string name="section_title_add_car">Aggiungi una nuova auto</string>
+    <string name="section_title_my_cars">Le mie auto</string>
+
+
+    <string name="location_permission_needed">Permesso di localizzazione necessario.</string>
+    <string name="location_security_error">Errore di sicurezza nell\'accesso alla posizione.</string>
+    <string name="your_location_marker">La tua posizione</string>
+    <string name="gps_disabled_message">Il GPS è stato disattivato.</string>
+    <string name="harsh_movement_detected">Movimento brusco rilevato!</string>
+
+
+    <string name="login_failed_format">Login fallito: %s</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="button_login">Login</string>
+    <string name="link_register">Non hai un account? Registrati</string>
+    <string name="link_forgot_password">Password dimenticata?</string>
+    <string name="login_screen_title">Accesso all\'account</string>
+    <string name="app_logo_description">Logo applicazione DriveSafe</string>
+
+    <string name="registration_success">Registrazione avvenuta</string>
+    <string name="registration_failed_format">Errore durante la registrazione: %s</string>
+
+    <string name="reset_password_success">Email per il reset password inviata!</string>
+    <string name="reset_password_failed_format">Errore durante l\'invio dell\'email: %s</string>
+    <string name="reset_password_empty_email">Inserisci la tua email</string>
+
+    <string name="logout_dialog_title">Conferma Logout</string>
+    <string name="logout_dialog_message">Sei sicuro di voler uscire dall\'account?</string>
+    <string name="logout_dialog_positive">Sì</string>
+    <string name="logout_dialog_negative">Annulla</string>
+
+    <string name="logout_prompt_message">Clicca il bottone qui sotto per uscire dall\'account.</string>
+
+
+    <string name="error_car_not_found">Dettagli auto non disponibili.</string>
+    <string name="error_car_not_found_save">Impossibile salvare: dettagli auto non trovati.</string>
+    <string name="toast_details_saved">Dettagli auto salvati con successo!</string>
+
+    <string name="label_brand">Marca:</string>
+    <string name="label_model">Modello:</string>
+    <string name="label_year">Anno:</string>
+
+    <string name="label_rca_paid_date">Premio RCA Pagato Il:</string>
+    <string name="hint_rca_paid_date">Data pagamento RCA (gg/mm/aaaa)</string>
+    <string name="label_rca_expiration_date_display">Scadenza RCA:</string>
+    <string name="label_rca_countdown">Scade tra:</string>
+
+    <string name="label_next_revision_date">Prossima Revisione Il:</string>
+    <string name="hint_next_revision_date">Data prossima revisione (gg/mm/aaaa)</string>
+    <string name="label_revision_countdown">Scade tra:</string>
+    <string name="label_revision_odometer">Chilometri alla Revisione:</string>
+    <string name="hint_revision_odometer">Chilometri</string>
+
+    <string name="label_registration_date">Data Immatricolazione:</string>
+    <string name="hint_registration_date">Data immatricolazione (gg/mm/aaaa)</string>
+
+    <string name="label_bollo_cost">Costo Bollo Totale:</string>
+    <string name="hint_bollo_cost">Costo (€)</string>
+    <string name="label_bollo_expiration_date">Scadenza Bollo:</string>
+    <string name="hint_bollo_expiration_date">Data scadenza bollo (gg/mm/aaaa)</string>
+    <string name="label_bollo_countdown">Scade tra:</string>
+
+    <string name="button_save_car_details">Salva Dettagli Auto</string>
+
+    <string name="date_format_display">dd/MM/yyyy</string>
+
+    <string name="error_revision_date_in_past">La data della prossima revisione non può essere nel passato.</string>
+    <string name="error_invalid_number_format_odometer">Formato non valido per i chilometri.</string>
+    <string name="error_invalid_number_format_bollo_cost">Formato non valido per il costo del bollo.</string>
+    <string name="countdown_expired">Scaduto!</string>
+    <string name="countdown_due_today">Scade oggi!</string>
+    <string name="countdown_due_in">Scade tra %s</string>
+    <string name="countdown_due_in_days">Scade tra %d giorni</string>
+    <string name="countdown_due_in_months_only">Scade tra %d mesi</string>
+    <string name="countdown_due_in_combined">Scade tra %s</string>
+    <string name="unit_month_singular">mese</string>
+    <string name="unit_months_plural">mesi</string>
+    <string name="unit_day_singular">giorno</string>
+    <string name="unit_days_plural">giorni</string>
+
+    <string name="error_revision_odometer_positive">I chilometri alla revisione non possono essere negativi.</string>
+    <string name="error_bollo_cost_positive">Il costo del bollo deve essere maggiore di zero.</string>
+    <string name="error_invalid_date_format">Formato data non valido per %s.</string>
+    <string name="error_invalid_number_format">Formato numero non valido per %s.</string>
+
+    <string name="dialog_delete_title">Conferma Cancellazione</string>
+    <string name="dialog_delete_message">Sei sicuro di voler cancellare l\'auto %1$s %2$s?</string>
+    <string name="dialog_delete_confirm">Cancella</string>
+    <string name="dialog_delete_cancel">Annulla</string>
+
+    <string name="recenter_button_description">Centra la mappa sulla posizione attuale</string>
+    <string name="location_not_available_toast">Posizione attuale non disponibile</string>
+
+    <string name="action_toggle_night_mode_title">Modalità Notturna</string>
+
+    <string name="menu_routes">Percorsi</string>
+
+    <string name="welcome_message">Benvenuto in DriveSafe</string>
+    <string name="start_recording">Inizia Registrazione</string>
+    <string name="stop_recording">Ferma Registrazione</string>
+    <string name="recording_in_progress">Registrazione in corso...</string>
+    <string name="no_recording">Nessuna registrazione attiva.</string>
+    <string name="route_saved_successfully">Percorso salvato con successo!</string>
+    <string name="route_save_failed">Errore nel salvataggio del percorso: %s</string>
+    <string name="permission_rationale_location">L\'applicazione necessita dei permessi di localizzazione per registrare i percorsi.</string>
+    <string name="permission_denied_explanation">I permessi di localizzazione sono stati negati. L\'applicazione non può registrare i percorsi senza di essi. Puoi abilitarli dalle impostazioni dell\'app.</string>
+    <string name="show_recorded_route_on_map">Mostra percorso sulla mappa</string>
+
+    <string name="route_details_title">Dettagli Percorso</string>
+    <string name="route_date">Data: %s</string>
+    <string name="route_distance">Distanza: %.2f km</string>
+    <string name="route_duration">Durata: %s</string>
+    <string name="route_speed_max">Velocità massima: %.2f km/h</string>
+    <string name="route_speed_avg">Velocità media: %.2f km/h</string>
+    <string name="route_view_map">Visualizza Mappa</string>
+    <string name="route_delete">Elimina Percorso</string>
+    <string name="route_delete_confirm_title">Conferma Eliminazione</string>
+    <string name="route_delete_confirm_message">Sei sicuro di voler eliminare questo percorso?</string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+    <string name="route_deleted_successfully">Percorso eliminato con successo!</string>
+    <string name="route_delete_failed">Errore nell\'eliminazione del percorso: %s</string>
+
+
+    <string name="login_title">Accedi a DriveSafe</string>
+    <string name="register_title">Registrati a DriveSafe</string>
+    <string name="reset_password_title">Reset Password</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Accedi</string>
+    <string name="register_button">Registrati</string>
+    <string name="forgot_password_button">Password dimenticata?</string>
+    <string name="send_reset_email_button">Invia email di reset</string>
+
+    <string name="route_stats_format">Distanza: %.2f km | Durata: %s</string>
+
+    <string name="detail_total_distance_format">Distanza totale: %.2f km</string>
+    <string name="detail_total_time_format">Durata totale: %s</string>
+    <string name="detail_average_speed_format">Velocità media: %.2f km/h</string>
+    <string name="detail_max_speed_format">Velocità max: %.2f km/h</string>
+
+    <string name="record_button_description">Pulsante Registra percorso</string>
+    <string name="menu_social_routes">Percorsi Social</string>
+    <string name="no_social_routes_found">Nessun percorso social trovato.</string>
+
+    <string name="menu_profile">Profilo</string>
+
+    <string name="profile_email_label">Email:</string>
+    <string name="profile_username_label">Username:</string>
+    <string name="profile_username_hint">Inserisci il tuo username</string>
+    <string name="profile_fav_car_brand_label">Marca auto preferita:</string>
+    <string name="profile_fav_car_brand_hint">Es. Ferrari, Fiat, Tesla</string>
+    <string name="profile_save_button">Salva Profilo</string>
+
+    <string name="menu_edit_profile">Modifica Profilo</string>
+
+    <string name="profile_edit_button">Modifica Profilo</string>
+
+    <string name="route_detail_start_label">Partenza:</string>
+    <string name="route_detail_end_label">Arrivo:</string>
+    <string name="route_detail_duration_label">Durata:</string>
+    <string name="route_detail_distance_label">Distanza Totale:</string>
+    <string name="route_detail_avg_speed_label">Velocità Media:</string>
+    <string name="route_detail_max_speed_label">Velocità Massima:</string>
+
+    <string name="profile_icon_description">Icona del profilo utente</string>
+
+    <string name="profile_place_of_birth_label">Luogo di nascita:</string>
+    <string name="profile_street_address_label">Via di residenza:</string>
+    <string name="profile_city_of_residence_label">Città di residenza:</string>
+    <string name="profile_year_of_birth_label">Data di nascita:</string>
+    <string name="profile_licenses_label">Patenti conseguite:</string>
+
+    <string name="license_am">AM</string>
+    <string name="license_a1">A1</string>
+    <string name="license_a2">A2</string>
+    <string name="license_a">A</string>
+    <string name="license_b1">B1</string>
+    <string name="license_b">B</string>
+    <string name="license_c1">C1</string>
+    <string name="license_c">C</string>
+    <string name="license_d1">D1</string>
+    <string name="license_d">D</string>
+
+
+    <string name="license_category_a">A</string>
+    <string name="license_category_b">B</string>
+    <string name="license_category_c">C</string>
+    <string name="license_category_d">D</string>
+
+
+    <string name="license_section_title_a">Patenti Categoria A</string>
+    <string name="license_section_title_b">Patenti Categoria B</string>
+    <string name="license_section_title_c">Patenti Categoria C</string>
+    <string name="license_section_title_d">Patenti Categoria D</string>
+    <string name="license_section_title_be">Patenti Categoria BE</string>
+    <string name="license_section_title_ce">Patenti Categoria CE</string>
+    <string name="license_section_title_de">Patenti Categoria DE</string>
+
+</resources>
