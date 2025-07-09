@@ -74,9 +74,34 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.play.services.location)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    testImplementation("junit:junit:4.13.2")
+
+    testImplementation("androidx.arch.core:core-testing:2.2.0")
+
+
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.0")
+
+
+    testImplementation("org.mockito:mockito-core:5.11.0")
+
+    testImplementation("org.mockito.kotlin:mockito-kotlin:5.2.1")
+
+    androidTestImplementation("org.mockito:mockito-android:5.11.0")
+
+    testImplementation("org.jetbrains.kotlin:kotlin-test:1.9.22")
+
+    androidTestImplementation("androidx.test.espresso:espresso-intents:3.5.1")
+
+
+    debugImplementation("androidx.fragment:fragment-testing:1.6.2")
+
+    androidTestImplementation("androidx.test.espresso:espresso-contrib:3.5.1")
+
 
     implementation(platform("com.google.firebase:firebase-bom:33.12.0"))
     implementation("com.google.firebase:firebase-analytics")
