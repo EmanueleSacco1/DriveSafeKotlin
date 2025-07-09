@@ -301,3 +301,4 @@ class CarDetailViewModelTest {
         org.mockito.Mockito.verify(mockCarDao).updateCar(carToSave)
     }
 }
+

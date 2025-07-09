@@ -124,3 +124,4 @@ class LoginActivityTest {
         intended(hasComponent(ResetPasswordActivity::class.java.name))
     }
 }
+
