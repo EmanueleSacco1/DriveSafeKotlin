@@ -62,3 +62,14 @@ Vuoi provare DriveSafe? Segui questi semplici passaggi:
 
 ```bash
 git clone https://github.com/tuo-utente/tuo-repo.git
+```
+### Installa le dipendenze:
+
+```bash
+cd tuo-repo
+```
+
+Assicurati di avere Android Studio e l'SDK Android configurati
+Il progetto utilizza Gradle, quindi le dipendenze verranno gestite automaticamente
+
+Apri il progetto in Android Studio e avvialo su un emulatore o un dispositivo fisico
